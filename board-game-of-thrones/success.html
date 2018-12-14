@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Board, Game of thrones">
+      <meta name=”description” content="Board Game of Thrones is a board game you can play in your browser, much like chutes and ladder">
+      <title>You won, Board Game of Thrones</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <style>
+         body{
+         background-image: url(imgs/sunny-snow-bg.jpg);
+         background-position: top top;
+         }
+      </style>
+   </head>
+   <body onload="getWinner();">
+      <header>
+         <div id="logo">
+            <a href="index.html">
+               <img src="imgs/logo-throne-2.svg" alt="Board game of thrones logo" width="80px">
+               <p>Board Game of Thrones</p>
+            </a>
+            <div id="new-game">
+             <a href="index.html">Play again</a>
+         </div>
+         </div>
+      </header>
+      <canvas id="canvas" width="1600px;" height="900px;"></canvas>
+      <h1 id="winner"></h1>
+      <div id="winner-img-cont">
+         <div id="winner-img"></div>
+         <div id="throne">
+            <img src="imgs/ironthrone.svg" alt="the Iron throne animated">
+         </div>
+      </div>
+      <footer>
+         <div id="social-div">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+         </div>
+         <p>Copyright &#169; 2018</p>
+      </footer>
+      <script src="scripts/success.js"></script> 
+      <script src="scripts/snow.js"></script>  
+   </body>
+</html>

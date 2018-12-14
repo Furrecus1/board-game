@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Board, Game of thrones">
+      <meta name=”description” content="Board Game of Thrones is a board game you can play in your browser, much like chutes and ladder">
+      <title>Board Game of Thrones</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body onload="whoStarts();">
+      <header>
+         <div id="logo">
+            <a href="index.html">
+               <img src="imgs/logo-throne-2.svg" alt="" width="80px">
+               <p>Board Game of Thrones</p>
+            </a>
+         </div>
+         <div id="new-game">
+             <a href="index.html">Play again</a>
+         </div>
+      </header>
+      <div id="screen-size"><p>You need a minimum of 830px width screen to play this game.</p></div>
+      <div id="wrapper">
+         <div id="gameModal" class="modal">
+            <div class="modal-content">
+               <span class="close">&times;</span>
+               <h4 id="gameMessage"></h4>
+               <p id="gameStarter"></p>
+               <button id="closeGameModal">ok</button>
+            </div>
+         </div>
+         <div id="rollSixModal" class="modal">
+            <div class="modal-content">
+               <span class="close">&times;</span>
+               <h4 id="rollSixMessage"></h4>
+               <button id="closeRollSixModal">ok</button>
+            </div>
+         </div>
+         <div id="board-cont">
+            <div id=board></div>
+         </div>
+         <div id="gamepad">
+            <div id="current-turn"></div>
+            <div id="dice-cont">
+               <div id="dice">
+                  <img src="imgs/Dice-1.svg" alt="Dice side 1" id="dice-side1" width="80px" style = "display:none">
+                  <img src="imgs/Dice-2.svg" alt="Dice side 2" id="dice-side2" width="80px" style = "display:none">
+                  <img src="imgs/Dice-3.svg" alt="Dice side 3" id="dice-side3" width="80px" style = "display:none">
+                  <img src="imgs/Dice-4.svg" alt="Dice side 4" id="dice-side4" width="80px" style = "display:none">
+                  <img src="imgs/Dice-5.svg" alt="Dice side 5" id="dice-side5" width="80px" style = "display:none">
+                  <img src="imgs/Dice-6.svg" alt="Dice side 6" id="dice-side6" width="80px">
+               </div>
+               <button id="dice-btn" onclick=rollDice()>Roll Dice</button>
+            </div>
+            <div class="flexbox">
+               <div id="current-turn-img-1" ></div>
+               <div id="current-turn-img-2"></div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div id="social-div">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+         </div>
+         <p>Copyright &#169; 2018</p>
+      </footer>
+      <script src="scripts/script.js"></script>   
+   </body>
+</html>
