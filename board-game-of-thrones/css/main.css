@@ -203,7 +203,7 @@ h3 {
 }
 
 .close:hover {
-   color: black;
+   color: #3CFF1B;
 	cursor: pointer;
 }
 
@@ -355,9 +355,14 @@ h3 {
     
     
 }
+#winner{
+    background-color: rgba(0,0,0,0.4);
+    margin: 0;
+    padding: 10px;
+}
 
 #winner-img-cont {
-	max-width: 630px;
+	max-width: 540px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -365,17 +370,18 @@ h3 {
 
 #winner-img {
 	display: block;
-	height: 300px;
-	width: 300px;
+	height: 220px;
+	width: 220px;
 	position: absolute;
 	left: 50%;
 	right: 50%;
+    top: 20px;
 	-webkit-transform: translate(-50%, 50%);
 	    -ms-transform: translate(-50%, 50%);
 	        transform: translate(-50%, 50%)
 }
 footer {
-	margin-top: 140px;
+	margin-top: 160px;
 	background-color: rgba(0, 0, 0, 0.7);
 	-webkit-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.7);
 	        box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.7);
@@ -384,7 +390,7 @@ footer {
 
 footer p{
    
-    padding-bottom: 20px;
+    padding: 40px 0;
     margin: 0;
     color: white;
 }
@@ -396,12 +402,12 @@ footer p{
     
 }
 #social-div a:hover {
-    color: #f09819;
+    color: #3CFF1B;
 }
 
 @media only screen and (min-width: 360px) {
     #logo img{
-        margin:0 10px;
+        margin:10px;
     }
     h1{
         font-size: 32px;

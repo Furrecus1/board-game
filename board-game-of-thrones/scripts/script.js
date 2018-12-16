@@ -864,6 +864,7 @@ function displayBoard() {
     document.getElementsByClassName('counter')[0].innerHTML = "Start";
     document.getElementsByClassName('counter')[31].style.margin = '55px 0px 0px 0px';
     document.getElementsByClassName('counter')[31].style.fontSize = '28px';
+    document.getElementsByClassName('counter')[31].style.backgroundColor = "rgba(0,0,0,0.6)";
     document.getElementsByClassName('counter')[31].innerHTML = "Finish";
     var steps = document.getElementsByClassName('tile');
     var i;
@@ -903,9 +904,10 @@ function displayBoard() {
         steps[30].style.backgroundImage = "url('imgs/mountain.jpg')";
         steps[30].style.backgroundSize = "cover";
         
-        steps[31].style.backgroundImage = "url('imgs/ironthrone.svg')";
+        steps[31].style.backgroundImage = "url('imgs/iron-throne-success.svg')";
         steps[31].style.backgroundSize = "cover";
         steps[31].style.backgroundPosition = "center center";
+        steps[31].style.backgroundColor = "white";
         steps[16].style.backgroundImage = "url('imgs/boat.jpg')";
         steps[16].style.backgroundSize = "cover";
         steps[16].style.backgroundPosition = "70% center";

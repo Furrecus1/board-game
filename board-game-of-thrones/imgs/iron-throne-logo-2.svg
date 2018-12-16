@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#757575;}
+	.st2{fill:url(#SVGID_1_);}
+</style>
+<g id="Layer_2">
+</g>
+<g id="Layer_4">
+	<g>
+		<rect x="660.6" y="1315.4" class="st0" width="677.8" height="600.1"/>
+		<path class="st0" d="M1339,1916H660.1v-601.1H1339V1916z M661.2,1915.1h676.8v-599.2H661.2V1915.1z"/>
+	</g>
+	<path class="st1" d="M663.1,1457.8"/>
+	<polygon class="st0" points="615.2,1316 361,278 549.4,531 468.8,162 699.2,465 633.4,72 858.1,476 834.3,46 1000,513 1000,1316 	
+		"/>
+	<polygon class="st0" points="1377.5,1316 1627,278 1442.1,531 1521.2,162 1295.1,465 1359.7,72 1139.2,476 1162.6,46 1000,513 
+		1000,1316 	"/>
+	<polygon class="st0" points="544,1526 491,1916 1339,1915 1510,1916 1449,1526 	"/>
+	<polygon class="st0" points="768,1271 667.1,1526 547,1526 605,1271 	"/>
+	<polygon class="st0" points="1231,1271 1331.9,1526 1452,1526 1394,1271 	"/>
+	<polygon class="st0" points="547,1526 540.2,1576.3 667.1,1576.3 667.1,1526 	"/>
+	<polygon class="st0" points="1454.2,1526 1461,1576.3 1334.1,1576.3 1334.1,1526 	"/>
+	<g>
+		
+			<radialGradient id="SVGID_1_" cx="1002.972" cy="1000.2724" r="608.0493" gradientTransform="matrix(1.2717 2.001607e-03 2.001607e-03 1 -275.5281 -2.0296)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#F09819"/>
+			<stop  offset="0.2689" style="stop-color:#F1951A"/>
+			<stop  offset="0.4927" style="stop-color:#F38A1D"/>
+			<stop  offset="0.7005" style="stop-color:#F77923"/>
+			<stop  offset="0.8972" style="stop-color:#FC612A"/>
+			<stop  offset="1" style="stop-color:#FF512F"/>
+		</radialGradient>
+		<path class="st2" d="M1015.4,156c0,0,52.5,77.9,43.8,235l-7.6,1036.1c0,0-20.4,21.7-0.3,43.7c0,0,58.1,8.4,78.3,8.5
+			c20.2,0.1,65.8-9.5,65.8-9.5l15.1,10.1l-0.2,29.8c0,0-68.2-12.4-80.9-6.6c0,0-37.9-0.3-76,11.4l-2.5,0l-2.4,330.1l-93.6-0.7
+			l2.4-326.1l0-2c0,0-53-20.3-151.7-1.1l-10.1-6l0.2-21.9l7.7-9.9c0,0,42.9,18.2,136.6-3l15.2,2.1c0,0,28-19.7,0.4-47.7l7.9-1069.9
+			C963.3,358.5,966.8,225.2,1015.4,156z"/>
+	</g>
+</g>
+</svg>
