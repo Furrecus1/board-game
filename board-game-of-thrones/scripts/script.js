@@ -864,7 +864,8 @@ function displayBoard() {
     document.getElementsByClassName('counter')[0].innerHTML = "Start";
     document.getElementsByClassName('counter')[31].style.margin = '55px 0px 0px 0px';
     document.getElementsByClassName('counter')[31].style.fontSize = '28px';
-    document.getElementsByClassName('counter')[31].style.backgroundColor = "rgba(0,0,0,0.6)";
+    document.getElementsByClassName('counter')[31].style.color = "darkorange";
+    document.getElementsByClassName('counter')[31].style.fontWeight = "bold";
     document.getElementsByClassName('counter')[31].innerHTML = "Finish";
     var steps = document.getElementsByClassName('tile');
     var i;

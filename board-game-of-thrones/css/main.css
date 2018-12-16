@@ -47,9 +47,9 @@ header {
     
 }
 #new-game a:hover{
-    background-image: -webkit-radial-gradient(circle, #3CFF1B, #3CFF1B);
-    background-image: -o-radial-gradient(circle, #3CFF1B, #1E7F0E);
-    background-image: radial-gradient(circle, #3CFF1B, #1E7F0E);
+    background-image: -webkit-radial-gradient(circle, #f09819, #ff512f);
+	background-image: -o-radial-gradient(circle, #f09819, #ff512f);
+	background-image: radial-gradient(circle, #f09819, #ff512f);
 }
 
 h1,
@@ -352,6 +352,8 @@ h3 {
     position: absolute;
     left: 0;
     right: 0;
+    max-width: 1600px;
+    margin: 0 auto;
     
     
 }
