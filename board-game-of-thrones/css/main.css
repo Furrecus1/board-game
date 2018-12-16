@@ -26,7 +26,7 @@ header {
 
 #logo p {
 	float: left;
-	margin: ;
+
 	text-decoration: none;
 	color: white;
 	font-size: 24px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-	margin: 0px 10px 10px 10px;
+	margin: 20px 10px 20px 10px;
 	font-size: 20px;
 	display: inline-block;
 	text-shadow: 2px 2px 2px black;
@@ -104,6 +104,7 @@ h3 {
 	height: 56vw;
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
+   
 }
 
 .character-inner {
@@ -364,7 +365,7 @@ h3 {
 
 #winner-img-cont {
 	max-width: 540px;
-	margin: 0 auto;
+	margin: 40px auto 0 auto;
 	position: relative;
 }
 
@@ -382,7 +383,7 @@ h3 {
 	        transform: translate(-50%, 50%)
 }
 footer {
-	margin-top: 160px;
+	margin-top: 140px;
 	background-color: rgba(0, 0, 0, 0.7);
 	-webkit-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.7);
 	        box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.7);
@@ -417,7 +418,7 @@ footer p{
         font-size: 22px;
     }
     h3{
-        font-size: 18px;
+       
     }
 }
 
@@ -454,10 +455,13 @@ footer p{
 
 @media only screen and (min-width: 950px) {
     h1{
-        font-size: 46px;
+        font-size: 42px;
     }
     h2{
         font-size: 28px;
+    }
+    h3{
+        font-size: 16px;
     }
 	.character {
 		width: 20%;
@@ -465,7 +469,7 @@ footer p{
 		
 	}
     #characters {
-		max-width: 900px;
+		max-width: 810px;
 		margin: 20px auto 120px auto;
 	}
 }
