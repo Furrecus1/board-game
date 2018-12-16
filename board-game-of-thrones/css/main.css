@@ -69,7 +69,6 @@ h2 {
 	font-size: 20px;
 	display: inline-block;
 	text-shadow: 2px 2px 2px black;
-    color:
 }
 
 h3 {
@@ -398,7 +397,7 @@ footer p{
 }
 #social-div a{
     padding: 10px;
-    margin: 20px 0;
+    margin: 40px 0 0 0;
     text-decoration: none;
     color: white;
     
